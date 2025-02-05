@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-inner-container h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main-inner-container{
+    border:1px solid black;
+    padding: 20px;
+}
+.main-inner-container input{
+    width: 30vw;
+    padding: 10px 10px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main-inner-container label{
+    display: block;
+    margin-top: 10px;
+}
+.main-inner-container button{
+    width: 20vw;
+    padding: 10px 20px;
+    position: relative;
+    margin: auto;
+    display: block;
+}
+
+@media(max-width:495px){
+   .main-inner-container input{
+    width: 90%;
+   } 
+}
