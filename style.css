@@ -16,6 +16,7 @@
 .main-inner-container{
     border:1px solid black;
     padding: 20px;
+    border-radius: 10px;
 }
 .main-inner-container input{
     width: 30vw;
@@ -34,6 +35,9 @@
     position: relative;
     margin: auto;
     display: block;
+    background-color: green;
+    color: white;
+    border: none;
 }
 
 @media(max-width:495px){
